@@ -1,0 +1,14 @@
+{
+  "data_source": {
+    "csv": "./data/hsCardBacks.csv",
+    "json": "./data/hsCardBacks.json"
+  },
+  "external_api": {
+    "client_id": "",
+    "secret": "",
+    "token_url": "https://us.battle.net/oauth/token",
+    "base_url": "https://us.api.blizzard.com/hearthstone/cardbacks"
+  },
+  "env": "local",
+  "port": 8080
+}
